@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.image_slider_section {
+  position: relative;
+  height: 100vh;
+}
+
+.img_container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.spacer {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
